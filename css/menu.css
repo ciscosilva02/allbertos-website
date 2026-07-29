@@ -1,0 +1,50 @@
+/* ===== dedicated menu page ===== */
+
+/* hero */
+.mhero{text-align:center;padding:clamp(48px,8vw,96px) 0 clamp(28px,4vw,44px)}
+.mhero h1{font-size:clamp(52px,11vw,124px);font-weight:900;margin:.1em 0 .22em}
+.mhero h1 em{color:var(--chile);position:relative;white-space:nowrap}
+.mhero h1 em::after{content:"";position:absolute;left:0;right:0;bottom:.02em;height:.14em;background:var(--gold);border-radius:4px;z-index:-1;opacity:.9}
+.mhero .lead{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:52ch;margin:0 auto 26px}
+.mhero-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:14px}
+
+/* photo strip */
+.mstrip{max-width:var(--maxw);margin:0 auto;padding:clamp(10px,2vw,24px) var(--pad) clamp(30px,5vw,54px)}
+.mstrip-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(10px,1.6vw,18px)}
+.mstrip .px{aspect-ratio:4/5;border-width:5px;border-radius:18px}
+.mstrip .tile-b{transform:rotate(-1.2deg)}
+.mstrip .tile-d{transform:rotate(1.2deg)}
+@media(min-width:720px){.mstrip-grid{grid-template-columns:repeat(4,1fr)}}
+
+/* category sections */
+.mcatpage{padding:clamp(48px,7vw,84px) 0}
+.mwrap{max-width:760px;margin:0 auto;padding:0 var(--pad)}
+.mcat-head{text-align:center;margin-bottom:clamp(28px,4vw,44px)}
+.mcat-head h2{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:clamp(40px,7vw,72px);letter-spacing:.08em;color:var(--chile);line-height:1}
+.mcat-head .sub{display:block;font-family:'Fraunces',serif;font-style:italic;font-size:clamp(16px,2vw,20px);color:var(--ink-soft);margin-top:6px}
+.mcat-head::after{content:"";display:block;width:64px;height:4px;background:var(--gold);border-radius:2px;margin:18px auto 0}
+
+/* items */
+.mitem{text-align:center;margin:0 auto clamp(26px,4vw,38px);max-width:600px}
+.mitem:last-child{margin-bottom:0}
+.mitem .chip{display:inline-block;font-family:'Bebas Neue',sans-serif;letter-spacing:.16em;font-size:13px;color:var(--mole);background:var(--gold);padding:4px 12px;border-radius:999px;margin-bottom:10px}
+.mitem h3{font-family:'DM Sans',sans-serif;font-size:clamp(17px,2.2vw,20px);font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.mitem p{color:var(--ink-soft);font-size:15.5px;max-width:46ch;margin:6px auto 8px}
+.mitem .mprice{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.05em;color:var(--chile)}
+
+/* dark (postres) variant */
+.mdark{background:var(--mole);color:var(--cream);position:relative;overflow:hidden}
+.mdark::after{content:"";position:absolute;inset:0;background-image:url('data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27120%27%20height%3D%27120%27%3E%3Cfilter%20id%3D%27n%27%3E%3CfeTurbulence%20type%3D%27fractalNoise%27%20baseFrequency%3D%270.9%27%20numOctaves%3D%272%27%20stitchTiles%3D%27stitch%27/%3E%3CfeColorMatrix%20type%3D%27saturate%27%20values%3D%270%27/%3E%3C/filter%3E%3Crect%20width%3D%27120%27%20height%3D%27120%27%20filter%3D%27url%28%2523n%29%27%20opacity%3D%270.5%27/%3E%3C/svg%3E');background-size:200px;opacity:.06;pointer-events:none}
+.mdark .mcat-head h2{color:var(--gold)}
+.mdark .mcat-head .sub{color:rgba(252,246,234,.66)}
+.mdark .mitem p{color:rgba(252,246,234,.72)}
+.mdark .mitem .mprice{color:var(--gold)}
+
+/* closing call-to-action */
+.mcta{background:var(--chile);color:var(--cream);text-align:center;padding:clamp(56px,8vw,100px) 0;position:relative;overflow:hidden}
+.mcta::after{content:"";position:absolute;inset:0;background-image:url('data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27120%27%20height%3D%27120%27%3E%3Cfilter%20id%3D%27n%27%3E%3CfeTurbulence%20type%3D%27fractalNoise%27%20baseFrequency%3D%270.9%27%20numOctaves%3D%272%27%20stitchTiles%3D%27stitch%27/%3E%3CfeColorMatrix%20type%3D%27saturate%27%20values%3D%270%27/%3E%3C/filter%3E%3Crect%20width%3D%27120%27%20height%3D%27120%27%20filter%3D%27url%28%2523n%29%27%20opacity%3D%270.5%27/%3E%3C/svg%3E');background-size:200px;opacity:.07;pointer-events:none}
+.mcta .eyebrow{color:var(--gold)}
+.mcta h2{font-size:clamp(34px,6vw,64px);font-weight:900;color:var(--cream);margin:.1em 0 .35em}
+.mcta h2 em{color:var(--gold)}
+.mcta p{color:rgba(252,246,234,.85);max-width:52ch;margin:0 auto 26px}
+.mcta-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;position:relative;z-index:2}

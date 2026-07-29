@@ -34,6 +34,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(247,237,218,.9);backdrop
 .nav-links{display:flex;gap:30px}
 .nav-links a{font-weight:600;font-size:15px;text-decoration:none;color:var(--ink);opacity:.82;transition:opacity .15s,color .15s}
 .nav-links a:hover{opacity:1;color:var(--chile)}
+.nav-links a.active{opacity:1;color:var(--chile)}
 .nav-cta{padding:10px 20px;font-size:15px}
 @media(max-width:820px){.nav-links{display:none}}
 
@@ -72,6 +73,10 @@ header{position:sticky;top:0;z-index:50;background:rgba(247,237,218,.9);backdrop
   .hero-content{padding:clamp(56px,6vw,92px) 0;display:flex;flex-direction:column;justify-content:center}
   .hero-media{order:0;min-height:0}
   .hero-frame{inset:clamp(30px,4vw,54px) 0}
+}
+@media(max-width:899px){
+  /* keep the hero photo perfectly centered on small screens (no parallax offset) */
+  .hero-frame .px-img{top:0;height:100%;transform:none!important}
 }
 
 /* reveal */
