@@ -6,3 +6,6 @@ desktop.ini
 # editor/tooling
 node_modules/
 .vercel/
+
+.vercel
+.env*
