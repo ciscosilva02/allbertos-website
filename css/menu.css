@@ -32,6 +32,11 @@
 .mitem p{color:var(--ink-soft);font-size:15.5px;max-width:46ch;margin:6px auto 8px}
 .mitem .mprice{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.05em;color:var(--chile)}
 
+/* category intro notes & footnotes */
+.mnote{text-align:center;font-family:'Fraunces',serif;font-style:italic;font-size:15.5px;color:var(--ink-soft);max-width:54ch;margin:-14px auto clamp(28px,4vw,40px)}
+.mnote.end{margin:clamp(28px,4vw,40px) auto 0}
+.mdark .mnote{color:rgba(252,246,234,.72)}
+
 /* dark (postres) variant */
 .mdark{background:var(--mole);color:var(--cream);position:relative;overflow:hidden}
 .mdark::after{content:"";position:absolute;inset:0;background-image:url('data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27120%27%20height%3D%27120%27%3E%3Cfilter%20id%3D%27n%27%3E%3CfeTurbulence%20type%3D%27fractalNoise%27%20baseFrequency%3D%270.9%27%20numOctaves%3D%272%27%20stitchTiles%3D%27stitch%27/%3E%3CfeColorMatrix%20type%3D%27saturate%27%20values%3D%270%27/%3E%3C/filter%3E%3Crect%20width%3D%27120%27%20height%3D%27120%27%20filter%3D%27url%28%2523n%29%27%20opacity%3D%270.5%27/%3E%3C/svg%3E');background-size:200px;opacity:.06;pointer-events:none}
