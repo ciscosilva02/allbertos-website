@@ -3,11 +3,13 @@ projects under the Pexels license — no attribution required.
 These are placeholder/stand-in photos; swap with real photos of the
 restaurant's own dishes when available.
 
-kitchen.jpg   — https://www.pexels.com/photo/28805273/  (chefs working in a busy Mexican kitchen)
+kitchen.jpg   — https://www.pexels.com/photo/25391587/  (cook chopping meat in a small Mexican kitchen)
+birria.jpg    — https://www.pexels.com/photo/31632714/  (birria tacos with consommé)
+tlayuda.jpg   — https://www.pexels.com/photo/25391588/  (open-faced masa dish with toppings)
+elote.jpg     — https://www.pexels.com/photo/6133872/   (elote with cotija and dried chiles)
+churros.jpg   — https://www.pexels.com/photo/9501468/   (caramel and chocolate filled churros)
 tacos.jpg     — https://www.pexels.com/photo/27626473/  (tacos on traditional clay plate)
 asada.jpg     — https://www.pexels.com/photo/8364557/   (carne asada and tortillas on the grill)
 nachos.jpg    — https://www.pexels.com/photo/18930039/  (loaded nachos with guacamole)
 breakfast.jpg — https://www.pexels.com/photo/31823015/  (huevos rancheros with avocado)
 coctel.jpg    — https://www.pexels.com/photo/28525132/  (Mexican shrimp cocktail)
-
-Original 4 dish photos (birria, tlayuda, elote, churros): sourced 2026-07-29.
