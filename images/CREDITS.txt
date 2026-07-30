@@ -3,7 +3,6 @@ projects under the Pexels license — no attribution required.
 These are placeholder/stand-in photos; swap with real photos of the
 restaurant's own dishes when available.
 
-kitchen.jpg   — https://www.pexels.com/photo/25391587/  (cook chopping meat in a small Mexican kitchen)
 birria.jpg    — https://www.pexels.com/photo/24182335/  (birria taco dunked in clay pot of consommé)
 tlayuda.jpg   — https://www.pexels.com/photo/25391588/  (open-faced masa dish with toppings)
 elote.jpg     — https://www.pexels.com/photo/6133872/   (elote with cotija and dried chiles)
