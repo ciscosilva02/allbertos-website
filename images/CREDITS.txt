@@ -3,7 +3,7 @@ projects under the Pexels license — no attribution required.
 These are placeholder/stand-in photos; swap with real photos of the
 restaurant's own dishes when available.
 
-birria.jpg    — https://www.pexels.com/photo/31632714/  (birria tacos with white cup of consommé)
+birria.jpg    — REAL photo: Allberto's actual birria plate, shot in-restaurant 2026-08-04 by Cisco (site owner-user). Not stock.
 tlayuda.jpg   — https://www.pexels.com/photo/25391588/  (open-faced masa dish with toppings)
 elote.jpg     — https://www.pexels.com/photo/6133872/   (elote with cotija and dried chiles)
 churros.jpg   — https://www.pexels.com/photo/9501468/   (caramel and chocolate filled churros)
