@@ -3,7 +3,8 @@ projects under the Pexels license — no attribution required.
 These are placeholder/stand-in photos; swap with real photos of the
 restaurant's own dishes when available.
 
-birria.jpg    — https://www.pexels.com/photo/24182335/  (birria taco dunked in clay pot of consommé)
+birria.jpg      — https://www.pexels.com/photo/9993709/ by Diamond Multimedia Films (quesabirria tacos on dark griddle, cheese pull)
+birria-card.jpg — https://www.pexels.com/photo/8448167/ by Los Muertos Crew (hand dipping tortilla into clay pot of consommé)
 tlayuda.jpg   — https://www.pexels.com/photo/25391588/  (open-faced masa dish with toppings)
 elote.jpg     — https://www.pexels.com/photo/6133872/   (elote with cotija and dried chiles)
 churros.jpg   — https://www.pexels.com/photo/9501468/   (caramel and chocolate filled churros)
