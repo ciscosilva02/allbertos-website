@@ -77,7 +77,7 @@ a.brand{text-decoration:none;color:var(--ink)}
 }
 @media(max-width:899px){
   /* no parallax offset on small screens; anchor the crop high so the consommé cup + first taco stay in frame */
-  .hero-frame .px-img{top:0;height:100%;transform:none!important;background-position:center bottom}
+  .hero-frame .px-img{top:0;height:100%;transform:none!important;background-position:center 22%}
 }
 
 /* reveal */
