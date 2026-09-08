@@ -9,3 +9,10 @@ node_modules/
 
 .vercel
 .env*
+
+# raw phone photos (source files, not deployed)
+photos-from-phone/
+/*.webp
+
+# private business docs - never commit (repo is public)
+business/
