@@ -76,6 +76,10 @@ a.brand{text-decoration:none;color:var(--ink)}
   .hero-media .hero-frame{inset:clamp(30px,4vw,54px) 0}
 }
 @media(max-width:899px){
+  /* headline first, photo underneath */
+  .hero-media{order:0;min-height:clamp(300px,82vw,460px)}
+  .hero-media .hero-frame{inset:0 var(--pad) clamp(30px,7vw,48px)}
+  .hero-badge{left:calc(var(--pad) + 16px);bottom:calc(clamp(30px,7vw,48px) + 16px)}
   /* no parallax offset on small screens; anchor the crop high so the consommé cup + first taco stay in frame */
   .hero-frame .px-img{top:0;height:100%;transform:none!important;background-position:center 22%}
 }
