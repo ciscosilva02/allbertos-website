@@ -208,6 +208,7 @@ footer{background:var(--mole2);color:var(--cream);padding:clamp(44px,6vw,68px) 0
 .foot-links a{text-decoration:none;font-weight:600;opacity:.85;font-size:15px}
 .foot-links a:hover{opacity:1;color:var(--gold)}
 .foot-bottom{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:20px;font-size:13px;color:rgba(252,246,234,.6)}
+.made-by{margin:22px 0 0;text-align:center;font-family:"Great Vibes",cursive;font-size:22px;line-height:1;color:var(--gold);opacity:.75;letter-spacing:.3px}
 
 @media(prefers-reduced-motion:reduce){
   .marquee-track{animation:none}
