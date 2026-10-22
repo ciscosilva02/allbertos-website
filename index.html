@@ -16,13 +16,14 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23C43A1C'/%3E%3Ctext x='50' y='74' font-size='68' font-family='Georgia,serif' font-weight='bold' text-anchor='middle' fill='%23F0B429'%3EA%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" rel="stylesheet" />
-<link rel="preload" as="image" href="images/birria.jpg" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" rel="stylesheet" />
+<link rel="preload" as="image" href="images/hero.jpg" media="(min-width: 700px)" />
+<link rel="preload" as="image" href="images/hero-mobile.jpg" media="(max-width: 699px)" />
 <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
-<header>
+<header class="site-header">
   <div class="wrap nav">
     <a href="#" class="brand">Allberto's<span class="dot">.</span></a>
     <nav class="nav-links">
@@ -35,30 +36,28 @@
   </div>
 </header>
 
-<!-- HERO -->
+<!-- HERO
+     Full-bleed storefront photo at dusk. images/hero.jpg is the landscape version
+     (~2000px wide), images/hero-mobile.jpg the tall crop used on phones.
+     Tweak the crop with --hero-pos in css/styles.css if needed. -->
 <section class="hero">
-  <div class="hero-inner">
-    <div class="hero-content">
-      <span class="eyebrow">Family-run · Breckenridge, Colorado</span>
-      <h1>Street food from the <em>heart</em> of Mexico.</h1>
-      <p class="lead">Authentic flavors, fresh ingredients, generous plates — made by one family, high in the Rockies.</p>
-      <div class="hero-actions">
-        <a href="menu.html" class="btn btn-solid">See the Menu →</a>
-        <a href="https://www.google.com/maps/dir/?api=1&destination=1900+Airport+Road+Breckenridge+CO" target="_blank" rel="noopener" class="btn btn-ghost">Get Directions</a>
-      </div>
-      <div class="hero-meta">
-        <span><span class="star">★</span> 4.7 on Google</span>
-        <span>Open Daily · 11am–9pm</span>
-        <span>Dine-in · Takeout · Catering</span>
-      </div>
+  <div class="hero-bg" role="img" aria-label="Allberto's Mexican Kitchen storefront at dusk, with string lights and papel picado over the patio"></div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="hero-content">
+    <span class="eyebrow">Family-run &middot; Breckenridge, Colorado</span>
+    <h1>Allberto's<span class="sub">Mexican Kitchen</span></h1>
+    <p class="tagline">Street food from the heart of Mexico, made by one family high in the Rockies.</p>
+    <div class="hero-actions">
+      <a href="https://order.toasttab.com/online/allberto-s-mexican-kitchen-1900-airport-road" target="_blank" rel="noopener" class="btn btn-solid">Order Online</a>
+      <a href="menu.html" class="btn btn-outline">View Menu</a>
     </div>
-    <div class="hero-media">
-      <div class="hero-frame px" data-amp="10">
-        <div class="px-img" style="background-image:url('images/birria.jpg')"></div>
-      </div>
-      <span class="hero-badge">Birria plate · dip &amp; devour</span>
+    <div class="hero-meta">
+      <span><span class="star">&#9733;</span> 4.7 on Google</span>
+      <span>Open Daily &middot; 11am&ndash;9pm</span>
+      <span><a href="https://www.google.com/maps/dir/?api=1&destination=1900+Airport+Road+Breckenridge+CO" target="_blank" rel="noopener">1900 Airport Road &rarr;</a></span>
     </div>
   </div>
+  <a href="#story" class="hero-scroll" aria-label="Scroll to our story"></a>
 </section>
 
 <!-- MARQUEE -->
@@ -108,7 +107,7 @@
 
     <div class="frow">
       <div class="fmedia reveal">
-        <div class="px" data-amp="18"><div class="px-img" style="background-image:url('images/birria.jpg')"></div></div>
+        <div class="px" data-amp="18"><div class="px-img" style="background-image:url('images/birria-plate.jpg')"></div></div>
       </div>
       <div class="ftext reveal">
         <span class="ftag">Dip &amp; Devour</span>
