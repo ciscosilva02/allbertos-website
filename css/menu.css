@@ -57,7 +57,7 @@
 
 /* dish photos tucked under a category */
 .mpics{display:grid;grid-template-columns:1fr 1fr;gap:clamp(12px,2vw,20px);margin:clamp(20px,3vw,32px) auto 0;max-width:760px}
-.mpics.one{grid-template-columns:1fr;max-width:420px}
+.mpics.one{grid-template-columns:1fr;max-width:560px}
 .mpics figure{margin:0}
 .mpics img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:4px;box-shadow:0 24px 40px -28px rgba(0,0,0,.6)}
 .mpics figcaption{text-align:center;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);margin-top:10px}

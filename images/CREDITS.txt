@@ -4,6 +4,7 @@ These are placeholder/stand-in photos; swap with real photos of the
 restaurant's own dishes when available.
 
 birria.jpg    — https://www.pexels.com/photo/31632714/  (birria tacos with white cup of consommé)
+birria-plate.jpg — same Pexels photo 31632714, square crop, graded to match the real photos (homepage Favorites)
 street-taco.jpg — https://www.pexels.com/photo/25391588/  (street taco with onion, cilantro, lime; was tlayuda.jpg, not actually a tlayuda)
 elote.jpg     — https://www.pexels.com/photo/6133872/   (elote with cotija and dried chiles)
 churros.jpg   — https://www.pexels.com/photo/9501468/   (caramel and chocolate filled churros)
@@ -16,10 +17,9 @@ Real photos of Allberto's (Cisco Silva, Oct-Nov 2026). Cropped, color-graded,
 resized, location data stripped, no customer faces:
 alberto-pan.jpg       — Alberto flipping a pan (homepage, Our Story)
 alberto-grill.jpg     — Alberto at the grill (menu photo strip)
-birria-plate.jpg      — birria tacos + consommé, square (homepage Favorites)
-birria-tall.jpg       — same, 4:5 (menu photo strip)
 chilaquiles-steak.jpg — square (homepage Favorites)
 chilaquiles-tall.jpg  — 4:5 (menu photo strip)
 omelette-tall.jpg     — steak omelette, 4:5 (menu photo strip)
-egg-tacos.jpg, french-toast.jpg — 3:2 (menu, Breakfast)
+frenchtoast-tall.jpg  — French toast, 4:5 (menu photo strip)
+egg-tacos.jpg         — 3:2 (menu, Breakfast)
 bar.jpg               — the bar (homepage, Find Us)
