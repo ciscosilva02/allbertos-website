@@ -44,6 +44,7 @@
 
 /* categories */
 .mcat2{max-width:1040px;margin:0 auto;padding-top:clamp(36px,5vw,56px);scroll-margin-top:calc(72px + var(--tabs-h) + 10px)}
+.mpart-head+.mcat2{padding-top:8px}
 .mcat2+.mcat2{border-top:1px solid rgba(42,24,16,.12);margin-top:clamp(36px,5vw,56px)}
 .mcat2-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:clamp(18px,3vw,28px)}
 .mcat2-head h3{font-family:var(--serif-lux);font-weight:600;font-size:clamp(30px,4vw,42px);line-height:1}
