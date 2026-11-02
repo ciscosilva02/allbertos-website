@@ -70,7 +70,7 @@
 
 <!-- STORY -->
 <section class="story grain" id="story">
-  <div class="wrap story-grid solo">
+  <div class="wrap story-grid">
     <div class="reveal">
       <span class="eyebrow">Our Story</span>
       <h2>One family, one <em>kitchen</em>, real Mexican food.</h2>
@@ -82,15 +82,10 @@
         <div class="stat"><div class="n">4.7★</div><div class="l">Google reviews</div></div>
       </div>
     </div>
-    <!-- OUR KITCHEN photo slot — hidden until we have the real family photo.
-         To bring it back: uncomment this block and remove "solo" from the
-         story-grid class above. Add "filled" + a .px-img div once there's a photo. -->
-    <!--
-    <div class="story-photo reveal">
-      <span class="stamp">OUR KITCHEN · PHOTO</span>
-      <span class="glyph">the family at work —<br/>hands, masa, steam</span>
+    <div class="story-photo filled reveal">
+      <div class="px-img" role="img" aria-label="Alberto cooking on the grill in the Allberto's kitchen" style="background-image:url('images/kitchen-alberto.jpg')"></div>
+      <span class="stamp">OUR KITCHEN</span>
     </div>
-    -->
   </div>
 </section>
 
@@ -117,7 +112,19 @@
       </div>
     </div>
 
-    <div class="frow rev" style="grid-template-columns:1fr"><!-- tlayuda photo removed until the real one is shot -->
+    <div class="frow rev">
+      <div class="fmedia reveal">
+        <div class="px" data-amp="18"><div class="px-img" role="img" aria-label="Chilaquiles with steak, avocado and queso fresco" style="background-image:url('images/chilaquiles-steak.jpg')"></div></div>
+      </div>
+      <div class="ftext reveal">
+        <span class="ftag">Breakfast, 8am to Noon</span>
+        <h3>Chilaquiles</h3>
+        <p>Homemade tortilla chips in red or green sauce with two fried eggs, queso fresco, crema and avocado. Add steak and you're set for the whole day on the mountain.</p>
+        <span class="fprice">$18.50 &middot; add steak +$8</span>
+      </div>
+    </div>
+
+    <div class="frow" style="grid-template-columns:1fr"><!-- tlayuda photo removed until the real one is shot -->
       <div class="ftext reveal">
         <span class="ftag">Oaxaca Classic</span>
         <h3>Tlayuda Oaxaqueña</h3>
@@ -242,7 +249,10 @@
       </div>
       <p style="margin-top:26px;color:rgba(252,246,234,.7);font-size:15px">Planning an event? We cater. Give us a call and we'll build a spread for your group.</p>
     </div>
-    <div class="map reveal"><iframe title="Map to Allberto's Mexican Kitchen" loading="lazy" src="https://www.google.com/maps?q=1900+Airport+Road+Breckenridge+CO&output=embed"></iframe></div>
+    <div class="visit-media reveal">
+      <img class="visit-photo" src="images/bar.jpg" alt="The bar inside Allberto's, with papel picado and string lights" loading="lazy" />
+      <div class="map"><iframe title="Map to Allberto's Mexican Kitchen" loading="lazy" src="https://www.google.com/maps?q=1900+Airport+Road+Breckenridge+CO&output=embed"></iframe></div>
+    </div>
   </div>
 </section>
 
