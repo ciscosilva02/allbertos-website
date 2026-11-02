@@ -4,7 +4,7 @@ These are placeholder/stand-in photos; swap with real photos of the
 restaurant's own dishes when available.
 
 birria.jpg    — https://www.pexels.com/photo/31632714/  (birria tacos with white cup of consommé)
-birria-fav.jpg, birria-wide.jpg — same Pexels photo 31632714, square crop, graded to match the real photos (homepage Favorites)
+birria-fav.jpg — Pexels photo 31632714, square crop, graded to match the real photos (homepage Favorites)
 street-taco.jpg — https://www.pexels.com/photo/25391588/  (street taco with onion, cilantro, lime; was tlayuda.jpg, not actually a tlayuda)
 elote.jpg     — https://www.pexels.com/photo/6133872/   (elote with cotija and dried chiles)
 churros.jpg   — https://www.pexels.com/photo/9501468/   (caramel and chocolate filled churros)
