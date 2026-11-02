@@ -285,3 +285,9 @@ footer{background:var(--mole2);color:var(--cream);padding:clamp(44px,6vw,68px) 0
 .map.map-strip iframe{height:100%;min-height:0}
 .visit{padding-bottom:0}
 @media(max-width:600px){.story-stats{flex-wrap:nowrap;gap:8px}.story-stats .stat{flex:1 1 0;min-width:0;padding:12px 10px}.story-stats .stat .n{font-size:20px}.story-stats .stat .l{font-size:11px}}
+
+/* band with the photo subject on the left: text sits right, shade from the right */
+.band.band-right{justify-content:flex-end}
+.band.band-right .overlay{background:linear-gradient(270deg,rgba(32,17,10,.88) 0%,rgba(32,17,10,.62) 46%,rgba(32,17,10,.1) 100%)}
+.band.band-right .px-img{background-position:left center}
+@media(max-width:700px){.band.band-right .overlay{background:linear-gradient(0deg,rgba(32,17,10,.92) 0%,rgba(32,17,10,.55) 55%,rgba(32,17,10,.05) 100%)}.band.band-right .px-img{background-position:22% center}}
