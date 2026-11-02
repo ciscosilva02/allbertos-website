@@ -1,3 +1,5 @@
+/* never let a photo push the page wider than the screen */
+img{max-width:100%;height:auto}
 :root{
   --bone:#F7EDDA; --cream:#FCF6EA; --chile:#C43A1C; --chile-deep:#9E2B12;
   --marigold:#EBA31C; --gold:#F0B429; --mole:#20110A; --mole2:#33200f;
