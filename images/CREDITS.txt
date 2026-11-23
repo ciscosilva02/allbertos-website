@@ -25,10 +25,10 @@ Alberto's own dish photos (sent Nov 23 2026). 4:3 crops, 400x300 WebP, beside me
 m-*.webp — nachos, chorizo corn dip, taquitos, asada fries, Mexican Caesar,
   parrillada oaxaquena, parrillada mar y tierra, birria bowl, arroz con pollo,
   carnitas plate, tlayuda, burrito ranchero, strawberry margarita, caldo de pollo
-hero-birria.webp / hero-birria-mobile.webp — birria bowl, homepage hero
+(birria bowl hero tried, Cisco preferred the storefront)
 parrillada-table.webp — parrillada for three (menu, Lunch & Dinner)
 tlayuda-fav.webp      — tlayuda (homepage Favorites)
 caldo-de-pollo.webp   — weekend special card
 Not used: enchilada-smothered burrito (knife in frame), skinny marg promo
 (social only), hot chocolate + skinny marg (not on the menu yet).
-hero.jpg / hero-mobile.jpg (storefront) kept as spares.
+
