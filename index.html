@@ -16,11 +16,12 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23C43A1C'/%3E%3Ctext x='50' y='74' font-size='68' font-family='Georgia,serif' font-weight='bold' text-anchor='middle' fill='%23F0B429'%3EA%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" rel="stylesheet" />
-<link rel="preload" as="image" href="images/hero.jpg" media="(min-width: 700px)" />
-<link rel="preload" as="image" href="images/hero-mobile.jpg" media="(max-width: 699px)" />
-<link rel="stylesheet" href="css/styles.css?v=20261123" />
-<link rel="stylesheet" href="css/specials.css?v=20261123" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" /></noscript>
+<link rel="preload" as="image" fetchpriority="high" href="images/hero-birria.webp" media="(min-width: 700px)" />
+<link rel="preload" as="image" fetchpriority="high" href="images/hero-birria-mobile.webp" media="(max-width: 699px)" />
+<link rel="stylesheet" href="css/styles.css?v=20261123p" />
+<link rel="stylesheet" href="css/specials.css?v=20261123p" />
 </head>
 <body>
 
@@ -38,11 +39,11 @@
 </header>
 
 <!-- HERO
-     Full-bleed storefront photo at dusk. images/hero.jpg is the landscape version
-     (~2000px wide), images/hero-mobile.jpg the tall crop used on phones.
+     Full-bleed photo of Alberto's birria bowl, the signature dish. images/hero-birria.webp
+     is the landscape version (2000px wide), images/hero-birria-mobile.webp the tall crop used on phones.
      Tweak the crop with --hero-pos in css/styles.css if needed. -->
 <section class="hero">
-  <div class="hero-bg" role="img" aria-label="Allberto's Mexican Kitchen storefront at dusk, with string lights and papel picado over the patio"></div>
+  <div class="hero-bg" role="img" aria-label="Allberto's birria bowl with slow-cooked beef, guacamole, Mexican rice and beans"></div>
   <div class="hero-shade" aria-hidden="true"></div>
   <div class="hero-content">
     <a href="#fiesta" class="hero-event" data-until="2026-11-29T04:00:00-07:00"><b>Sat Nov 28</b> Live music night &rarr;</a><br/>
@@ -137,7 +138,8 @@
         <p>Game on, wings out. Our crispy whole wings in house-made buffalo honey-garlic sauce, by the basket. Come hungry on game day.</p>
         <span class="sp-deal">$10 wing baskets on game day</span>
       </div>
-      <div class="sp-card reveal">
+      <div class="sp-card sp-card-ph reveal">
+        <img class="sp-img" src="images/caldo-de-pollo.webp" alt="Caldo de pollo with corn, zucchini, green beans and tortillas" width="900" height="675" loading="lazy" decoding="async" />
         <span class="sp-day">Friday &amp; Saturday</span>
         <h3>Menudo &amp; Caldo de Pollo</h3>
         <p>Weekend comfort in a bowl. Slow-simmered menudo and a hearty caldo de pollo, the way we make it back home in Oaxaca.</p>
@@ -176,7 +178,10 @@
       </div>
     </div>
 
-    <div class="frow textonly"><!-- tlayuda: text-only until a real photo is shot -->
+    <div class="frow rev">
+      <div class="fmedia reveal">
+        <div class="px" data-amp="18"><div class="px-img" role="img" aria-label="Tlayuda Oaxaqueña with black beans, quesillo, avocado sauce and grilled meat" style="background-image:url('images/tlayuda-fav.webp')"></div></div>
+      </div>
       <div class="ftext reveal">
         <span class="ftag">Oaxaca Classic</span>
         <h3>Tlayuda Oaxaqueña</h3>
@@ -185,9 +190,9 @@
       </div>
     </div>
 
-    <div class="frow rev">
+    <div class="frow">
       <div class="fmedia reveal">
-        <div class="px" data-amp="18"><div class="px-img" style="background-image:url('images/elote.jpg')"></div></div>
+        <div class="px" data-amp="18"><div class="px-img" role="img" aria-label="Elote street corn" style="background-image:url('images/elote.jpg')"></div></div>
       </div>
       <div class="ftext reveal">
         <span class="ftag">Start Here</span>
@@ -197,9 +202,9 @@
       </div>
     </div>
 
-    <div class="frow">
+    <div class="frow rev">
       <div class="fmedia reveal">
-        <div class="px" data-amp="18"><div class="px-img" style="background-image:url('images/churros.jpg')"></div></div>
+        <div class="px" data-amp="18"><div class="px-img" role="img" aria-label="Caramel stuffed churros with ice cream" style="background-image:url('images/churros.jpg')"></div></div>
       </div>
       <div class="ftext reveal">
         <span class="ftag">Save Room</span>
@@ -333,7 +338,7 @@
   </div>
 </footer>
 
-<script src="js/until.js?v=20261123"></script>
-<script src="js/main.js?v=20261123"></script>
+<script src="js/until.js?v=20261123p" defer></script>
+<script src="js/main.js?v=20261123p" defer></script>
 </body>
 </html>

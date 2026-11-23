@@ -14,10 +14,11 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23C43A1C'/%3E%3Ctext x='50' y='74' font-size='68' font-family='Georgia,serif' font-weight='bold' text-anchor='middle' fill='%23F0B429'%3EA%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/styles.css?v=20261123" />
-<link rel="stylesheet" href="css/menu.css?v=20261123" />
-<link rel="stylesheet" href="css/specials.css?v=20261123" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" /></noscript>
+<link rel="stylesheet" href="css/styles.css?v=20261123p" />
+<link rel="stylesheet" href="css/menu.css?v=20261123p" />
+<link rel="stylesheet" href="css/specials.css?v=20261123p" />
 </head>
 <body class="menu-page">
 
@@ -65,7 +66,7 @@
     <div class="sp-grid">
       <div class="sp-card"><span class="sp-day">Every Tuesday</span><h3>Taco Tuesday</h3><p>Street tacos the Oaxaca way, piled with onion, cilantro and fresh salsa.</p><span class="sp-deal">Ask about this week's taco deal</span></div>
       <div class="sp-card"><span class="sp-day">Every Sunday</span><h3>Football Sunday Wings</h3><p>Crispy whole wings in house-made buffalo honey-garlic sauce, by the basket.</p><span class="sp-deal">$10 wing baskets on game day</span></div>
-      <div class="sp-card"><span class="sp-day">Friday &amp; Saturday</span><h3>Menudo &amp; Caldo de Pollo</h3><p>Slow-simmered menudo and a hearty caldo de pollo, weekend comfort in a bowl.</p><span class="sp-deal">Weekends only, while it lasts</span></div>
+      <div class="sp-card sp-card-ph"><img class="sp-img" src="images/caldo-de-pollo.webp" alt="Caldo de pollo with corn, zucchini, green beans and tortillas" width="900" height="675" loading="lazy" decoding="async" /><span class="sp-day">Friday &amp; Saturday</span><h3>Menudo &amp; Caldo de Pollo</h3><p>Slow-simmered menudo and a hearty caldo de pollo, weekend comfort in a bowl.</p><span class="sp-deal">Weekends only, while it lasts</span></div>
     </div>
     <p class="bk-paused" style="margin-top:clamp(28px,4vw,44px)"><b>Breakfast returns when the snow flies.</b><span>We're taking a short breakfast break until the snow comes. See you soon for chilaquiles and omelettes.</span></p>
   </div>
@@ -126,14 +127,18 @@
         <a href="#antojitos">Antojitos</a><a href="#sopas">Ensaladas &amp; Sopas</a><a href="#platos">Platos Calientes</a><a href="#oaxaca">Oaxaca Classics</a><a href="#burritos">Burritos &amp; Tortas</a><a href="#tacos">Tacos</a><a href="#postres">Postres</a><a href="#ninos">Para los Niños</a>
       </nav>
     </div>
+    <figure class="mpart-photo reveal"><img src="images/parrillada-table.webp" alt="Parrillada for three on the table with grilled meats, shrimp, avocado and tortillas" width="1600" height="1067" loading="lazy" decoding="async" /><figcaption>Parrillada for three</figcaption></figure>
 
 <p class="mcat2-flag">Carnitas are back! Add slow-cooked pork carnitas to any taco, torta, quesadilla, nachos or burrito. Just ask.</p>
 <div class="mcat2" id="antojitos">
   <div class="mcat2-head"><h3>Antojitos</h3><span>appetizers</span></div>
 <div class="mgrid">
-<article class="mi">
+<article class="mi mi-ph">
+  <img class="mi-img" src="images/m-nachos.webp" alt="Nachos piled with queso, crema, pico and guacamole" width="400" height="300" loading="lazy" decoding="async" />
+  <div class="mi-body">
   <div class="mi-top"><h4>Nachos</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$14.50</span></div>
   <p>Poblano queso, shredded jack, black beans, pickled jalapeño, roasted corn and pico de gallo, topped with guacamole and crema. Add diced chicken, pork pastor or veggie +$7 · steak asada or birria +$8.</p>
+  </div>
 </article>
 <article class="mi">
   <div class="mi-top"><h4>Allberto&#x27;s Wings (x7)</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$20.50</span></div>
@@ -143,13 +148,19 @@
   <div class="mi-top"><h4>Chips &amp; Dips</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$11.50</span></div>
   <p>Three homemade dips, poblano queso, guacamole, and your choice of red salsa (spicy) or tomatillo green salsa (mild).</p>
 </article>
-<article class="mi">
+<article class="mi mi-ph">
+  <img class="mi-img" src="images/m-chorizo-corn-dip.webp" alt="Chorizo corn queso dip ringed with tortilla chips" width="400" height="300" loading="lazy" decoding="async" />
+  <div class="mi-body">
   <div class="mi-top"><h4>Chorizo Corn Dip</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$12.50</span></div>
   <p>Creamy poblano queso dip with chorizo and corn, served with chips or warm tortillas, topped with pico and cotija.</p>
+  </div>
 </article>
-<article class="mi">
+<article class="mi mi-ph">
+  <img class="mi-img" src="images/m-taquitos.webp" alt="Crispy chicken taquitos topped with crema and lettuce" width="400" height="300" loading="lazy" decoding="async" />
+  <div class="mi-body">
   <div class="mi-top"><h4>Taquitos (x4)</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$18.50</span></div>
   <p>Crispy rolled corn tortillas filled with shredded chicken and jack cheese, topped with guacamole, green sauce, crema, lettuce and pico.</p>
+  </div>
 </article>
 <article class="mi">
   <div class="mi-top"><h4>Tostadas (x3)</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$22.50 · $26.50</span></div>
@@ -159,9 +170,12 @@
   <div class="mi-top"><h4>Quesadilla</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$11.50</span></div>
   <p>Shredded jack folded in a 13&Prime; flour tortilla, with crema and pico on the side. Add diced chicken, pork pastor or veggie +$7 · steak asada or birria +$8.</p>
 </article>
-<article class="mi">
+<article class="mi mi-ph">
+  <img class="mi-img" src="images/m-asada-fries.webp" alt="Asada fries loaded with steak, pico and crema" width="400" height="300" loading="lazy" decoding="async" />
+  <div class="mi-body">
   <div class="mi-top"><h4>Asada Fries</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$19.50</span></div>
   <p>Crispy fries, steak asada, pico, guac, poblano queso, crema &amp; jack.</p>
+  </div>
 </article>
 <article class="mi">
   <div class="mi-top"><h4>Elote</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$7.50</span></div>
@@ -181,9 +195,12 @@
   <div class="mi-top"><h4>Side Salad</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$8.50</span></div>
   <p>Mixed greens, peppers, tomatoes and radish. Choice of ranch, blue cheese or buffalo ranch.</p>
 </article>
-<article class="mi">
+<article class="mi mi-ph">
+  <img class="mi-img" src="images/m-mexican-caesar.webp" alt="Mexican Caesar salad topped with blackened shrimp" width="400" height="300" loading="lazy" decoding="async" />
+  <div class="mi-body">
   <div class="mi-top"><h4>Mexican Caesar</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$15.50</span></div>
   <p>Romaine with creamy Caesar dressing, crispy tortilla chips, roasted corn and cotija.</p>
+  </div>
 </article>
 <article class="mi">
   <div class="mi-top"><h4>Southwest Salad</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$21.50</span></div>
@@ -214,15 +231,21 @@
   <div class="mi-top"><h4>Carne Asada</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$28.50</span></div>
   <p>Marinated grilled skirt steak with choice of refried or pinto beans, Spanish rice, grilled onion and tortillas.</p>
 </article>
-<article class="mi">
+<article class="mi mi-ph">
+  <img class="mi-img" src="images/m-parrillada-oaxaquena.webp" alt="Parrillada Oaxaqueña platter of grilled meats and avocado" width="400" height="300" loading="lazy" decoding="async" />
+  <div class="mi-body">
   <div class="mi-top"><h4>Parrillada Oaxaqueña</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$26 · $79</span></div>
   <p>Carne asada, grilled chicken drumstick, pork cecina, queso fresco, grilled onion and nopal (cactus), with sides of guac, salsa, pinto beans, rice, pickled habanero mixed peppers and chiles curtidos.</p>
   <p class="mi-add">Single $26 · Feeds three $79</p>
+  </div>
 </article>
-<article class="mi">
+<article class="mi mi-ph">
+  <img class="mi-img" src="images/m-parrillada-mar-y-tierra.webp" alt="Parrillada Mar y Tierra with steak, shrimp, rice and beans" width="400" height="300" loading="lazy" decoding="async" />
+  <div class="mi-body">
   <div class="mi-top"><h4>Parrillada Mar y Tierra</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$31.50 · $89</span></div>
   <p>Surf &amp; turf: sautéed shrimp and octopus, carne asada, grilled chicken drumstick and pork cecina with queso fresco, grilled onion, nopal, pickled habanero mixed peppers, plus sides of guac, salsa, rice and beans.</p>
   <p class="mi-add">Single $31.50 · Feeds three $89</p>
+  </div>
 </article>
 <article class="mi">
   <div class="mi-top"><h4>Alambre Mar y Tierra</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$30.50</span></div>
@@ -232,32 +255,44 @@
   <div class="mi-top"><h4>Ranchero Steak</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$26.50</span></div>
   <p>Skirt steak with peppers, onions and tomatoes, served with Spanish rice and choice of pinto or refried beans, finished with ranchero sauce.</p>
 </article>
-<article class="mi">
+<article class="mi mi-ph">
+  <img class="mi-img" src="images/m-birria-bowl.webp" alt="Birria bowl with rice, guacamole and shredded beef" width="400" height="300" loading="lazy" decoding="async" />
+  <div class="mi-body">
   <div class="mi-top"><h4>Birria Bowl</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$23.50</span></div>
   <p>Slow-cooked shredded beef (or substitute grilled mixed veggies) with Spanish rice, jack cheese, pinto beans, guac, cilantro, diced onion and lime.</p>
+  </div>
 </article>
 <article class="mi">
   <div class="mi-top"><h4>Enchiladas (x3)</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$22.50</span></div>
   <p>Corn tortillas rolled with shredded pollo and jack cheese, smothered in red enchilada sauce or queso poblano. Served with Spanish rice and choice of refried or pinto beans.</p>
   <p class="mi-add">Make it mole sauce +$2</p>
 </article>
-<article class="mi">
+<article class="mi mi-ph">
+  <img class="mi-img" src="images/m-arroz-con-pollo.webp" alt="Arroz con pollo with peppers, rice and refried beans" width="400" height="300" loading="lazy" decoding="async" />
+  <div class="mi-body">
   <div class="mi-top"><h4>Arroz con Pollo <span class="mi-new">New</span></h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$22</span></div>
   <p>Juicy chicken breast sautéed with mixed peppers and onions, served over Mexican rice with a side of creamy refried beans. Simple, hearty, and just like home.</p>
+  </div>
 </article>
-<article class="mi">
+<article class="mi mi-ph">
+  <img class="mi-img" src="images/m-carnitas-plate.webp" alt="Carnitas plate with rice, beans and warm tortillas" width="400" height="300" loading="lazy" decoding="async" />
+  <div class="mi-body">
   <div class="mi-top"><h4>Carnitas Plate <span class="mi-new">Back</span></h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">Ask us</span></div>
   <p>Pork slow-cooked until it falls apart, then crisped at the edges. Tender, juicy and golden, served with warm tortillas so you can build your own tacos.</p>
+  </div>
 </article>
 </div>
 </div>
 <div class="mcat2" id="oaxaca">
   <div class="mcat2-head"><h3>Oaxaca Classics</h3><span>the heart of our kitchen</span></div>
 <div class="mgrid">
-<article class="mi">
+<article class="mi mi-ph">
+  <img class="mi-img" src="images/m-tlayuda.webp" alt="Tlayuda with black beans, quesillo and avocado sauce" width="400" height="300" loading="lazy" decoding="async" />
+  <div class="mi-body">
   <div class="mi-top"><h4>Tlayuda</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$27.50 · $28.50</span></div>
   <p>A crispy folded tlayuda tortilla spread with creamy black beans, lechuga, rich asiento, melted quesillo and avocado sauce, with pickled habanero mixed peppers. Choice of Oaxacan picante, red or tomatillo salsa.</p>
   <p class="mi-add">Cecina $27.50 · Steak asada $28.50</p>
+  </div>
 </article>
 <article class="mi">
   <div class="mi-top"><h4>Huarache</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$22.50</span></div>
@@ -276,9 +311,12 @@
 <article class="mi">
   <div class="mi-top"><h4>Burrito · Chicken, Veggie or Pastor</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$18.50</span></div>
 </article>
-<article class="mi">
+<article class="mi mi-ph">
+  <img class="mi-img" src="images/m-burrito-ranchero.webp" alt="Burrito smothered in ranchero sauce with guacamole and crema" width="400" height="300" loading="lazy" decoding="async" />
+  <div class="mi-body">
   <div class="mi-top"><h4>Burrito · Steak Asada or Birria</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$19.50</span></div>
   <p class="mi-add">Smother it: enchilada or ranchero sauce with crema and avocado sauce +$4.50 · queso poblano +$6</p>
+  </div>
 </article>
 <article class="mi">
   <div class="mi-top"><h4>Torta</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$18.50 · $20.50</span></div>
@@ -380,10 +418,13 @@
 
     <p class="mcat2-note">Every drink comes with your choice of salt, gusano salt, tajín or chamoy rim.</p>
     <div class="mgrid">
-<article class="mi">
+<article class="mi mi-ph">
+  <img class="mi-img" src="images/m-strawberry-margarita.webp" alt="Strawberry margarita with a chile-salt rim" width="400" height="300" loading="lazy" decoding="async" />
+  <div class="mi-body">
   <div class="mi-top"><h4>House Margarita</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$11 · $16</span></div>
   <p class="mi-add">12 oz $11 · 20 oz $16</p>
   <p class="mi-add">Make it strawberry or mango: 12 oz +$2 · 20 oz +$4</p>
+  </div>
 </article>
 <article class="mi">
   <div class="mi-top"><h4>El Patrón</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$17</span></div>
@@ -452,8 +493,8 @@
   </div>
 </footer>
 
-<script src="js/until.js?v=20261123"></script>
-<script src="js/main.js?v=20261123"></script>
+<script src="js/until.js?v=20261123p"></script>
+<script src="js/main.js?v=20261123p"></script>
 <script>
 // highlight the sticky tab for the section on screen
 (function(){var tabs=[].slice.call(document.querySelectorAll('.mtab'));

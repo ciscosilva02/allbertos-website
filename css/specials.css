@@ -64,3 +64,7 @@
 .mi-new{display:inline-block;vertical-align:middle;font-family:'DM Sans',sans-serif;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--chile);color:var(--cream);padding:3px 7px;border-radius:999px;margin-left:6px;transform:translateY(-2px)}
 .mcat2-flag{max-width:1040px;margin:0 auto clamp(18px,3vw,28px);background:var(--gold);color:var(--mole);border-radius:4px;padding:12px 16px;font-weight:600;font-size:15px}
 .mhero2-hours .park{align-self:center}
+
+/* special card with a real photo on top, flush to the card edges */
+.sp-card .sp-img{display:block;width:calc(100% + 48px);max-width:none;height:auto;aspect-ratio:16/9;object-fit:cover;margin:-26px -24px 18px;border-radius:4px 4px 0 0}
+@media(min-width:760px){.sp-card .sp-img{aspect-ratio:2/1}}
