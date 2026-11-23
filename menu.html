@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Menu — Allberto's Mexican Kitchen</title>
-<meta name="description" content="The full menu at Allberto's Mexican Kitchen in Breckenridge, Colorado — antojitos, breakfast, birria, tlayudas, parrilladas, burritos, tortas, tacos and outrageous caramel churros." />
+<meta name="description" content="The full menu at Allberto's Mexican Kitchen in Breckenridge, Colorado — antojitos, birria, carnitas, tlayudas, parrilladas, burritos, tortas, tacos and outrageous caramel churros." />
 <link rel="canonical" href="https://allbertoskitchen.com/menu.html" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Allberto's Mexican Kitchen" />
@@ -15,8 +15,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/styles.css?v=20261102g" />
-<link rel="stylesheet" href="css/menu.css?v=20261102g" />
+<link rel="stylesheet" href="css/styles.css?v=20261123" />
+<link rel="stylesheet" href="css/menu.css?v=20261123" />
+<link rel="stylesheet" href="css/specials.css?v=20261123" />
 </head>
 <body class="menu-page">
 
@@ -33,12 +34,14 @@
   </div>
 </header>
 
+<a class="event-strip" href="index.html#fiesta" data-until="2026-11-29T04:00:00-07:00"><b>Sat Nov 28, 9:30 PM:</b> Gran Noche de Fiesta with live music. 18+, $35 entry. <span>See details</span></a>
+
 <!-- MENU HERO -->
 <section class="mhero2">
   <div class="wrap">
     <span class="eyebrow">Allberto's Mexican Kitchen · Breckenridge</span>
     <h1>The Menu</h1>
-    <p class="mhero2-hours"><span>Breakfast until noon</span><span>Lunch &amp; dinner until 9pm</span><span>Happy hour 3 to 5pm</span></p>
+    <p class="mhero2-hours"><span>Lunch &amp; dinner until 9pm</span><span>Happy hour 3 to 5pm</span><span class="park"><i>P</i> Free parking</span></p>
     <a href="https://order.toasttab.com/online/allberto-s-mexican-kitchen-1900-airport-road" target="_blank" rel="noopener" class="btn btn-solid">Order Online</a>
   </div>
 </section>
@@ -46,14 +49,30 @@
 <!-- STICKY SECTION BAR -->
 <nav class="mtabs" aria-label="Menu sections">
   <div class="mtabs-in">
-    <a href="#breakfast" class="mtab"><b>Breakfast</b><small>until noon</small></a>
+    <a href="#specials" class="mtab"><b>Specials</b><small>every week</small></a>
     <a href="#lunch" class="mtab"><b>Lunch &amp; Dinner</b><small>until 9pm</small></a>
     <a href="#drinks" class="mtab"><b>Drinks</b><small>happy hour 3 to 5</small></a>
   </div>
 </nav>
 
-<!-- BREAKFAST -->
-<section class="mpart" id="breakfast">
+<!-- SPECIALS -->
+<section class="mpart" id="specials">
+  <div class="wrap">
+    <div class="mpart-head">
+      <span class="eyebrow">Specials for Days</span>
+      <h2>Weekly Specials <em>especiales</em></h2>
+    </div>
+    <div class="sp-grid">
+      <div class="sp-card"><span class="sp-day">Every Tuesday</span><h3>Taco Tuesday</h3><p>Street tacos the Oaxaca way, piled with onion, cilantro and fresh salsa.</p><span class="sp-deal">Ask about this week's taco deal</span></div>
+      <div class="sp-card"><span class="sp-day">Every Sunday</span><h3>Football Sunday Wings</h3><p>Crispy whole wings in house-made buffalo honey-garlic sauce, by the basket.</p><span class="sp-deal">$10 wing baskets on game day</span></div>
+      <div class="sp-card"><span class="sp-day">Friday &amp; Saturday</span><h3>Menudo &amp; Caldo de Pollo</h3><p>Slow-simmered menudo and a hearty caldo de pollo, weekend comfort in a bowl.</p><span class="sp-deal">Weekends only, while it lasts</span></div>
+    </div>
+    <p class="bk-paused" style="margin-top:clamp(28px,4vw,44px)"><b>Breakfast returns when the snow flies.</b><span>We're taking a short breakfast break until the snow comes. See you soon for chilaquiles and omelettes.</span></p>
+  </div>
+</section>
+
+<!-- BREAKFAST: paused until it snows (Alberto, 11/23/2026). Remove the "hidden" attribute below and add the tab back to bring it back. -->
+<section class="mpart" id="breakfast" hidden>
   <div class="wrap">
     <div class="mpart-head">
       <span class="eyebrow">Served until noon</span>
@@ -108,6 +127,7 @@
       </nav>
     </div>
 
+<p class="mcat2-flag">Carnitas are back! Add slow-cooked pork carnitas to any taco, torta, quesadilla, nachos or burrito. Just ask.</p>
 <div class="mcat2" id="antojitos">
   <div class="mcat2-head"><h3>Antojitos</h3><span>appetizers</span></div>
 <div class="mgrid">
@@ -148,8 +168,8 @@
   <p>Street-corn style on the cob with mayo, cotija, fresh lime, tajín and cilantro. The perfect first bite while you decide on the rest.</p>
 </article>
 <article class="mi">
-  <div class="mi-top"><h4>Cactus Fries</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$14</span></div>
-  <p>Nopal (cactus) sliced into strips, battered and fried, served with buffalo ranch.</p>
+  <div class="mi-top"><h4>Cactus Fries <span class="mi-new">Must try</span></h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$14</span></div>
+  <p>Never had cactus? Try it! Fresh nopal, the paddle of the prickly pear cactus, sliced into strips, battered and fried golden. Crispy outside, tender and a little tangy inside, like a green bean. Served with buffalo ranch.</p>
 </article>
 </div>
 </div>
@@ -174,6 +194,10 @@
   <p>Rich, savory stew, tender slow-cooked beef in an aromatic red broth of dried chiles and tomatoes, topped with cilantro and onion, served with tortillas.</p>
 </article>
 <article class="mi">
+  <div class="mi-top"><h4>Pozole Rojo <span class="mi-new">New</span></h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$22</span></div>
+  <p>A big, soul-warming bowl of red pozole. Rich red chile broth loaded with tender hominy, shredded chicken and pork, topped with crisp shredded cabbage and sliced radish. Served with tostadas, plus lime, chopped onion, cilantro and chile flakes on the side so you can make it yours.</p>
+</article>
+<article class="mi">
   <div class="mi-top"><h4>Cup of Tortilla Soup</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$5.50</span></div>
   <p>Traditional tomato-chile broth with crispy fried tortilla strips, avocado, cheese and cilantro.</p>
 </article>
@@ -188,7 +212,7 @@
 </article>
 <article class="mi">
   <div class="mi-top"><h4>Carne Asada</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$28.50</span></div>
-  <p>Marinated grilled skirt steak with choice of refried or pinto beans, Spanish rice, grilled onion, pickled habanero mixed peppers and tortillas.</p>
+  <p>Marinated grilled skirt steak with choice of refried or pinto beans, Spanish rice, grilled onion and tortillas.</p>
 </article>
 <article class="mi">
   <div class="mi-top"><h4>Parrillada Oaxaqueña</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$26 · $79</span></div>
@@ -215,14 +239,15 @@
 <article class="mi">
   <div class="mi-top"><h4>Enchiladas (x3)</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$22.50</span></div>
   <p>Corn tortillas rolled with shredded pollo and jack cheese, smothered in red enchilada sauce or queso poblano. Served with Spanish rice and choice of refried or pinto beans.</p>
+  <p class="mi-add">Make it mole sauce +$2</p>
 </article>
 <article class="mi">
-  <div class="mi-top"><h4>Coctel de Camarón</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$22.50</span></div>
-  <p>House-made seafood cocktail, Clamato, fresh avocado, pico de gallo, Maggi seasoning and a splash of Valentina. Served with shrimp and crackers.</p>
+  <div class="mi-top"><h4>Arroz con Pollo <span class="mi-new">New</span></h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$22</span></div>
+  <p>Juicy chicken breast sautéed with mixed peppers and onions, served over Mexican rice with a side of creamy refried beans. Simple, hearty, and just like home.</p>
 </article>
 <article class="mi">
-  <div class="mi-top"><h4>Coctel Campechano</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$27.50</span></div>
-  <p>The same bold house blend with fresh diced cucumber, served with shrimp, clam and octopus.</p>
+  <div class="mi-top"><h4>Carnitas Plate <span class="mi-new">Back</span></h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">Ask us</span></div>
+  <p>Pork slow-cooked until it falls apart, then crisped at the edges. Tender, juicy and golden, served with warm tortillas so you can build your own tacos.</p>
 </article>
 </div>
 </div>
@@ -240,7 +265,7 @@
 </article>
 <article class="mi">
   <div class="mi-top"><h4>Char-Grilled Chicken Drumsticks</h4><span class="mi-dots" aria-hidden="true"></span><span class="mi-price">$23.50</span></div>
-  <p>Served with golden fried onions and a blistered jalapeño, traditional Mexican rice, creamy refried beans and fresh pico de gallo.</p>
+  <p>Served with golden fried onions and a blistered jalapeño, traditional Mexican rice, pinto beans and fresh pico de gallo.</p>
 </article>
 </div>
 </div>
@@ -427,13 +452,14 @@
   </div>
 </footer>
 
-<script src="js/main.js?v=20261102g"></script>
+<script src="js/until.js?v=20261123"></script>
+<script src="js/main.js?v=20261123"></script>
 <script>
 // highlight the sticky tab for the section on screen
 (function(){var tabs=[].slice.call(document.querySelectorAll('.mtab'));
 var map={};tabs.forEach(function(t){map[t.getAttribute('href').slice(1)]=t;});
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){tabs.forEach(function(t){t.classList.remove('on')});map[e.target.id].classList.add('on');}});},{rootMargin:'-45% 0px -50% 0px'});
-['breakfast','lunch','drinks'].forEach(function(id){var el=document.getElementById(id);if(el)io.observe(el);});})();
+['specials','lunch','drinks'].forEach(function(id){var el=document.getElementById(id);if(el)io.observe(el);});})();
 </script>
 </body>
 </html>
