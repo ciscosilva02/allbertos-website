@@ -16,11 +16,12 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23C43A1C'/%3E%3Ctext x='50' y='74' font-size='68' font-family='Georgia,serif' font-weight='bold' text-anchor='middle' fill='%23F0B429'%3EA%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" rel="stylesheet" />
-<link rel="preload" as="image" href="images/hero.jpg" media="(min-width: 700px)" />
-<link rel="preload" as="image" href="images/hero-mobile.jpg" media="(max-width: 699px)" />
-<link rel="stylesheet" href="css/styles.css?v=20261123" />
-<link rel="stylesheet" href="css/specials.css?v=20261123" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" /></noscript>
+<link rel="preload" as="image" fetchpriority="high" href="images/hero.jpg" media="(min-width: 700px)" />
+<link rel="preload" as="image" fetchpriority="high" href="images/hero-mobile.jpg" media="(max-width: 699px)" />
+<link rel="stylesheet" href="css/styles.css?v=20261123p" />
+<link rel="stylesheet" href="css/specials.css?v=20261123p" />
 </head>
 <body>
 
@@ -71,32 +72,6 @@
   </div>
 </div>
 
-<!-- EVENT: Gran Noche de Fiesta, Sat Nov 28 2026. Removes itself after the night (data-until). -->
-<section class="fiesta" id="fiesta" data-until="2026-11-29T04:00:00-07:00">
-  <div class="wrap fiesta-grid">
-    <figure class="fiesta-flyer reveal">
-      <img src="images/fiesta-nov28.jpg" alt="Flyer: Gran Noche de Fiesta y Diversion, Saturday November 28, 2026, La Super Ley de Oaxaca and Los Hermanos Acuna, doors 9:30 PM, entry $35, 18 and over" width="1000" height="1300" loading="lazy" />
-    </figure>
-    <div class="reveal">
-      <span class="eyebrow">Live Music &middot; Saturday, November 28</span>
-      <h2>Gran Noche de <em>Fiesta</em> y Diversi&oacute;n</h2>
-      <p class="fiesta-sub">A big night of live music and dancing at Allberto's. Una noche de baile para adultos.</p>
-      <p class="fiesta-bands">Playing back to back all night: <b>La Super Ley de Oaxaca</b> and <b>Los Hermanos Acu&ntilde;a</b> (&Oacute;rgano Musical, y su Actitud Digital).</p>
-      <div class="fiesta-facts">
-        <div><span class="k">Doors / Puerta</span><span class="v">9:30 PM<small>S&aacute;bado 28 de noviembre</small></span></div>
-        <div><span class="k">Entry / Entrada</span><span class="v">$35<small>per person</small></span></div>
-        <div><span class="k">Ages / Edad</span><span class="v">18+ with ID<small>bring your ID</small></span></div>
-        <div><span class="k">Cubetazos</span><span class="v">$35<small>beer buckets</small></span></div>
-      </div>
-      <div class="fiesta-ladies">First 20 ladies in get free drinks and snacks.<small>Primeras 20 damitas: bebidas, bocadillos y botanas gratis.</small></div>
-      <div class="fiesta-actions">
-        <a href="https://www.google.com/maps/dir/?api=1&destination=1900+Airport+Road+Breckenridge+CO" target="_blank" rel="noopener" class="btn btn-gold">1900 Airport Rd &middot; Directions</a>
-        <a href="tel:+19704236227" class="btn btn-outline">Call (970) 423-6227</a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- STORY -->
 <section class="story grain" id="story">
   <div class="wrap story-grid solo">
@@ -137,7 +112,8 @@
         <p>Game on, wings out. Our crispy whole wings in house-made buffalo honey-garlic sauce, by the basket. Come hungry on game day.</p>
         <span class="sp-deal">$10 wing baskets on game day</span>
       </div>
-      <div class="sp-card reveal">
+      <div class="sp-card sp-card-ph reveal">
+        <img class="sp-img" src="images/caldo-de-pollo.webp" alt="Caldo de pollo with corn, zucchini, green beans and tortillas" width="900" height="675" loading="lazy" decoding="async" />
         <span class="sp-day">Friday &amp; Saturday</span>
         <h3>Menudo &amp; Caldo de Pollo</h3>
         <p>Weekend comfort in a bowl. Slow-simmered menudo and a hearty caldo de pollo, the way we make it back home in Oaxaca.</p>
@@ -176,7 +152,10 @@
       </div>
     </div>
 
-    <div class="frow textonly"><!-- tlayuda: text-only until a real photo is shot -->
+    <div class="frow rev">
+      <div class="fmedia reveal">
+        <div class="px" data-amp="18"><div class="px-img" role="img" aria-label="Tlayuda Oaxaqueña with black beans, quesillo, avocado sauce and grilled meat" style="background-image:url('images/tlayuda-fav.webp')"></div></div>
+      </div>
       <div class="ftext reveal">
         <span class="ftag">Oaxaca Classic</span>
         <h3>Tlayuda Oaxaqueña</h3>
@@ -185,9 +164,9 @@
       </div>
     </div>
 
-    <div class="frow rev">
+    <div class="frow">
       <div class="fmedia reveal">
-        <div class="px" data-amp="18"><div class="px-img" style="background-image:url('images/elote.jpg')"></div></div>
+        <div class="px" data-amp="18"><div class="px-img" role="img" aria-label="Elote street corn" style="background-image:url('images/elote.jpg')"></div></div>
       </div>
       <div class="ftext reveal">
         <span class="ftag">Start Here</span>
@@ -197,9 +176,9 @@
       </div>
     </div>
 
-    <div class="frow">
+    <div class="frow rev">
       <div class="fmedia reveal">
-        <div class="px" data-amp="18"><div class="px-img" style="background-image:url('images/churros.jpg')"></div></div>
+        <div class="px" data-amp="18"><div class="px-img" role="img" aria-label="Caramel stuffed churros with ice cream" style="background-image:url('images/churros.jpg')"></div></div>
       </div>
       <div class="ftext reveal">
         <span class="ftag">Save Room</span>
@@ -310,6 +289,32 @@
   <div class="map map-strip"><iframe title="Map to Allberto's Mexican Kitchen" loading="lazy" src="https://www.google.com/maps?q=1900+Airport+Road+Breckenridge+CO&output=embed"></iframe></div>
 </section>
 
+<!-- EVENT: Gran Noche de Fiesta, Sat Nov 28 2026. Removes itself after the night (data-until). -->
+<section class="fiesta" id="fiesta" data-until="2026-11-29T04:00:00-07:00">
+  <div class="wrap fiesta-grid">
+    <figure class="fiesta-flyer reveal">
+      <img src="images/fiesta-nov28.jpg" alt="Flyer: Gran Noche de Fiesta y Diversion, Saturday November 28, 2026, La Super Ley de Oaxaca and Los Hermanos Acuna, doors 9:30 PM, entry $35, 18 and over" width="1000" height="1300" loading="lazy" />
+    </figure>
+    <div class="reveal">
+      <span class="eyebrow">Live Music &middot; Saturday, November 28</span>
+      <h2>Gran Noche de <em>Fiesta</em> y Diversi&oacute;n</h2>
+      <p class="fiesta-sub">A big night of live music and dancing at Allberto's. Una noche de baile para adultos.</p>
+      <p class="fiesta-bands">Playing back to back all night: <b>La Super Ley de Oaxaca</b> and <b>Los Hermanos Acu&ntilde;a</b> (&Oacute;rgano Musical, y su Actitud Digital).</p>
+      <div class="fiesta-facts">
+        <div><span class="k">Doors / Puerta</span><span class="v">9:30 PM<small>S&aacute;bado 28 de noviembre</small></span></div>
+        <div><span class="k">Entry / Entrada</span><span class="v">$35<small>per person</small></span></div>
+        <div><span class="k">Ages / Edad</span><span class="v">18+ with ID<small>bring your ID</small></span></div>
+        <div><span class="k">Cubetazos</span><span class="v">$35<small>beer buckets</small></span></div>
+      </div>
+      <div class="fiesta-ladies">First 20 ladies in get free drinks and snacks.<small>Primeras 20 damitas: bebidas, bocadillos y botanas gratis.</small></div>
+      <div class="fiesta-actions">
+        <a href="https://www.google.com/maps/dir/?api=1&destination=1900+Airport+Road+Breckenridge+CO" target="_blank" rel="noopener" class="btn btn-gold">1900 Airport Rd &middot; Directions</a>
+        <a href="tel:+19704236227" class="btn btn-outline">Call (970) 423-6227</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer>
   <div class="wrap">
@@ -333,7 +338,7 @@
   </div>
 </footer>
 
-<script src="js/until.js?v=20261123"></script>
-<script src="js/main.js?v=20261123"></script>
+<script src="js/until.js?v=20261123p" defer></script>
+<script src="js/main.js?v=20261123p" defer></script>
 </body>
 </html>

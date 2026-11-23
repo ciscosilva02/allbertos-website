@@ -86,3 +86,12 @@
 .mclose-text p{color:var(--ink-soft);max-width:44ch}
 .mclose-actions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
 .mfine{font-size:13px;opacity:.85}
+
+/* real dish photos beside menu items (Alberto's own photos, Nov 23 2026).
+   Every photo is the same 4:3 crop, 400x300 WebP, width/height set so nothing jumps. */
+.mi.mi-ph{display:grid;grid-template-columns:var(--mi-th,112px) minmax(0,1fr);gap:14px;align-items:start}
+.mi-img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:4px;box-shadow:0 14px 26px -16px rgba(32,17,10,.55);background:rgba(42,24,16,.08)}
+@media(min-width:600px){.mi.mi-ph{--mi-th:168px;gap:20px}}
+@media(min-width:860px){.mi.mi-ph{--mi-th:150px}}
+@media(min-width:1040px){.mi.mi-ph{--mi-th:176px}}
+.mpart-dark .mi-img{box-shadow:0 14px 26px -12px rgba(0,0,0,.7)}
