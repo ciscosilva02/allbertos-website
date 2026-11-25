@@ -68,3 +68,17 @@
 /* special card with a real photo on top, flush to the card edges */
 .sp-card .sp-img{display:block;width:calc(100% + 48px);max-width:none;height:auto;aspect-ratio:16/9;object-fit:cover;margin:-26px -24px 18px;border-radius:4px 4px 0 0}
 @media(min-width:760px){.sp-card .sp-img{aspect-ratio:2/1}}
+
+/* Polish pass Nov 24: contrast and readable small text (kept last) */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.eyebrow{color:var(--chile-deep)}
+.nav-links a.active{color:var(--chile-deep)}
+.mpart-head h2 em{color:var(--chile-deep)}
+.hero .eyebrow{text-shadow:0 1px 10px rgba(0,0,0,.65)}
+.reviews .eyebrow{color:var(--cream)}
+.reviews .count{color:var(--cream)}
+.cactus p{color:var(--cream)}
+.cactus .price{color:#ffd56a}
+.mi-new{font-size:11px;letter-spacing:.1em}
+.mfine{opacity:1;color:#6f5643}
+@media(max-width:420px){.mtab small{font-size:11px;letter-spacing:.04em;opacity:.9}}
